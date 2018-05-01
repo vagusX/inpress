@@ -59,4 +59,5 @@ typings/
 
 # pages folder
 .next
-.inpress/pages
+pages
+dist

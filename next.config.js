@@ -1,4 +1,5 @@
 const images = require('remark-images')
+const path = require('path')
 
 module.exports = {
   pagesExtensions: ['js', 'jsx', 'md', 'mdx'],

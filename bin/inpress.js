@@ -11,7 +11,7 @@ program
 
 program
   .command('build <dir>')
-  .action(() => {
+  .action((dir) => {
     build(path.resolve(dir))
   })
 
