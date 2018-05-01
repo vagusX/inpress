@@ -1,0 +1,46 @@
+{
+  "name": "inpress",
+  "version": "0.0.1-alpha1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "inpress": "bin/inpress.js"
+  },
+  "scripts": {
+    "dev:docs": "node bin/inpress dev docs",
+    "build:docs": "node bin/inpress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vagusX/nextpress.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vagusX/nextpress/issues"
+  },
+  "homepage": "https://github.com/vagusX/nextpress#readme",
+  "devDependencies": {
+    "@mdx-js/loader": "^0.8.1",
+    "ensure-dir": "^0.1.0",
+    "husky": "^1.0.0-rc.2",
+    "lint-staged": "^7.0.5",
+    "next": "^6.0.0",
+    "prettier": "^1.12.1",
+    "remark-images": "^0.8.1"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^0.8.1",
+    "commander": "^2.15.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,json,md}": ["prettier --write", "git add"]
+  }
+}

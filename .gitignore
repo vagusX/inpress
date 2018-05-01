@@ -57,3 +57,6 @@ typings/
 # dotenv environment variables file
 .env
 
+# pages folder
+.next
+.inpress/pages
