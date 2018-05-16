@@ -1,25 +1,25 @@
 {
-  "name": "inpress",
-  "version": "0.0.1-alpha3",
+  "name": "wepress",
+  "version": "0.0.1-alpha4",
   "description": "",
   "main": "index.js",
   "bin": {
-    "inpress": "bin/inpress.js"
+    "wepress": "bin/wepress.js"
   },
   "scripts": {
-    "dev:docs": "node bin/inpress dev docs",
-    "build:docs": "node bin/inpress build docs"
+    "dev:docs": "node bin/wepress dev docs",
+    "build:docs": "node bin/wepress build docs"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vagusX/nextpress.git"
+    "url": "git+https://github.com/vagusX/wepress.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vagusX/nextpress/issues"
+    "url": "https://github.com/vagusX/wepress/issues"
   },
-  "homepage": "https://github.com/vagusX/nextpress#readme",
+  "homepage": "https://github.com/vagusX/wepress#readme",
   "devDependencies": {
     "@mdx-js/loader": "^0.8.1",
     "ensure-dir": "^0.1.0",
